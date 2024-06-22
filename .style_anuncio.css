@@ -1,0 +1,467 @@
+@font-face {
+    font-family: 'ClickMotors';
+    src: url(outros/HoltwoodOneSC-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    color: white;
+}
+
+/* CSS para Barra Superior */
+
+.a {
+    width: 100%;
+    height: 70px;
+    border: 1px solid white;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.barra_sup {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    background-color: white;
+}
+
+.b {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40%;
+    width: 25%;
+    margin-right: 10px;
+}
+
+.txt_barra {
+    color: #FF3C00;
+    font-size: 22px;
+    font-weight: bold;
+    opacity: 90%;
+}
+
+.c {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #FF3C00;
+}
+
+.o:link {
+    text-decoration: none;
+}
+
+.o:hover {
+    border-bottom: 2px solid #FF3C00;
+}
+
+/* CSS para Página de Anúncios */
+
+.busca {
+    border:80%;
+    background-color:#FF3C00;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 9%
+}
+
+.f {
+    font-family: 'ClickMotors';
+    color: white;
+    font-size: 80%;
+    background-color: #FF3C00;
+}
+
+.g {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_busca {
+    border: 1px solid #ffa285;
+    color:white;
+    width: 200%;
+    border-radius: 5px;
+    background-color: #FF3C00;
+}
+
+.filtro {
+    margin-top: 72px;
+    background-color: #FF3C00;
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.e {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ClickMotors';
+    font-size: 150%;
+    gap: 7px;
+    margin: 3%;
+}
+
+.input_carros {
+    width: 100%;
+    height: 30px;
+    background-color: #FF3C00;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: 'ClickMotors';
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.input_carros::placeholder {
+    color: white;
+}
+
+.menu {
+    margin-top: -20%;
+    /* border: 1px solid black; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    margin: 0;
+    width: 99.5%;
+    border-color: white;
+}
+
+.filtros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+    margin-top: 2%;
+}
+
+.dados {
+    width: 85%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'ClickMotors';
+    font-size: 150%;
+    gap: 5px;
+}
+
+.f {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input_dados {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #FF3C00;
+    width: 45%;
+    height: 35px;
+    color: white;
+    font-family: 'ClickMotors';
+    font-size: 60%;
+    text-align: center;
+}
+
+.input_dados::placeholder {
+    color: white;
+    font-family: 'ClickMotors';
+    font-size: 100%;
+}
+
+.filtrar {
+    width: 100%;
+    height:37px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #FF3C00;
+    font-family: 'ClickMotors';
+    font-size: 100%;
+}
+
+.botoes {
+    /* border: 1px solid black; */
+    width: 77%;
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+}
+
+.esportivo {
+    width: 75%;
+    margin-left: 25%;
+}
+
+.principal {
+    width: 74.8%;
+    height: 330px;
+    margin-left: 25%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5%;
+}   
+
+.img {
+    border-radius: 10px 10px 0 0;
+}
+
+.anuncio {
+    border: 1px solid gray;
+    background-color: #FF3C00;
+    border-radius: 10px;
+    width: 20%;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.texto {
+    margin-top: 2%;
+    color: white;
+    width: 100%;
+    height: 50%;
+    font-family: 'ClickMotors';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.fonte {
+    word-break: break-word;
+    /* border: 1px solid black; */
+    max-width: 95%;
+    font-family: 'arial';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+.z {
+    margin-top: 72px;
+    width: 100%;
+    border-radius: 0;
+}
+
+.cont_erro {
+    /* border: 1px solid black; */
+    margin: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.j {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt_erro {
+    font-family: 'ClickMotors';
+    color: #FF3C00;
+    font-size: 120%;
+    font-weight: bold;
+    opacity: 90%;
+    user-select: none;
+}
+
+.botao_erro {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 1%;
+    width: 10%;
+    height: 40px;
+    font-family: 'ClickMotors';
+    background-color: #fc501b;
+    color: black;
+    font-size: 80%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.i {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.i:link {
+    text-decoration: none;
+}
+
+.div_popup-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #FF3C00;
+    user-select: none;
+    cursor: pointer;
+}
+
+.popup-wrapper-menu {
+    top: 0;
+    right: 0;
+    display: block;
+    position: fixed;
+    width: 10.9%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.popup-menu {
+    border-left: 1px solid black;
+    margin-top: 142px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    background: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.meus_carros-menu {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    margin-bottom: 4.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ClickMotors';
+    font-size: 75%;
+    color: #FF3C00;
+    /* background-color: #ff3d01;
+    color: white; */
+}
+
+.relatorios-menu {
+    /* border-top: 1px solid gray; */
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ClickMotors';
+    font-size: 75%;
+    color: #FF3C00;
+    /* background-color: #ff3d01;
+    color: white; */
+}
+
+.endereco-menu {
+    /* border-top: 1px solid gray; */
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ClickMotors';
+    font-size: 75%;
+    color: #FF3C00;
+    /* background-color: #ff3d01;
+    color: white; */
+}
+
+.sair-menu {
+    /* border-top: 1px solid gray; */
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ClickMotors';
+    font-size: 75%;
+    color: #d90101;
+    /* background-color: #d90101;
+    color: white; */
+}
+
+.h-menu {
+    width: 100%;
+    height: 80px;
+    text-decoration: none;
+}

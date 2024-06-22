@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'ClickMotors';
+    src: url(outros/HoltwoodOneSC-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+/* CSS para Barra Superior */
+
+.a {
+    width: 100%;
+    height: 70px;
+    border: 1px solid white;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.barra_sup {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    background-color: white;
+}
+
+.b {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40%;
+    width: 25%;
+    margin-right: 10px;
+}
+
+.txt_barra {
+    color: #FF3C00;
+    font-size: 22px;
+    font-weight: bold;
+    opacity: 90%;
+}
+
+.c {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #FF3C00;
+}
+
+.o:link {
+    text-decoration: none;
+}
+
+.o:hover {
+    border-bottom: 2px solid #FF3C00;
+}
+
+/* CSS para Conteúdo da Página */
+
+.body_jatemcad {
+    height: 100%;
+    width: 100%;
+    background-color: #fc501b;
+    position: absolute;
+}
+
+.cont_jatemcad {
+    margin-top: 70px;
+    background-color: #fc501b;
+    width: 99.99%;
+    height: 87%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco_jatemcad {
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo_jatemcad {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    gap: 30px;
+}
+
+.d {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.e {
+    /* border: 1px solid black; */
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'ClickMotors';
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

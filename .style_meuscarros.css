@@ -1,0 +1,616 @@
+@font-face {
+    font-family: 'ClickMotors';
+    src: url(outros/HoltwoodOneSC-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    color: black;
+}
+
+/* CSS para Barra Superior */
+
+.a {
+    width: 100%;
+    height: 70px;
+    border: 1px solid white;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 1;
+}
+
+.barra_sup {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    background-color: white;
+}
+
+.b {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40%;
+    width: 25%;
+    margin-right: 10px;
+}
+
+.txt_barra {
+    color: #FF3C00;
+    font-size: 22px;
+    font-weight: bold;
+    opacity: 90%;
+}
+
+.c {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #FF3C00;
+}
+
+.o:link {
+    text-decoration: none;
+}
+
+.o:hover {
+    border-bottom: 2px solid #FF3C00;
+}
+
+/* CSS para Página de Anúncios */
+
+.conteudo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cabecalho {
+    background-color: white;
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 20%;
+    margin-top: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+
+.txt_cabecalho {
+    font-family: 'ClickMotors';
+    font-size: 300%;
+    font-weight: bold;
+    user-select: none;
+}
+
+.d {
+    /* border: 1px solid black; */
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+}
+
+.vendidos {
+    font-family: 'ClickMotors';
+    font-size: 130%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.anunciados{
+    font-family: 'ClickMotors';
+    font-size: 130%;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 2px solid #FF3C00;
+}
+
+hr {
+    margin-top: 15%;
+    width: 99.9%;
+    position: fixed;
+    z-index: 1;
+}
+
+.k {
+    margin-top: 15%;
+    width: 79%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.n {
+    margin-top: 15%;
+    width: 79%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.l {
+    background-color: blue;
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.principal {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 5%;
+    background-color: rgb(173, 173, 173);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.principal_vendido {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 5%;
+    background-color: rgb(173, 173, 173);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.f {
+    width: 100%;
+    height: 100%;
+}
+
+.e:hover {
+    border-bottom: 2px solid white;
+}
+
+.img {
+    border-radius: 10px 0 0 10px;
+    width: 35%;
+    height: 99%;
+    /* background-image: url('.upload/15/frontal.jpg');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;  */
+    opacity: 90%;
+}
+
+.e {
+    margin: 1% 2%;
+    opacity: 200%;
+}
+
+.dados {
+    /* border: 1px solid black; */
+    margin: 3% 2%;
+    width: 65%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.modelo {
+    font-family: Arial;
+    font-size: 150%;
+    font-weight: bold;
+    opacity: 90%;
+}
+
+.valor {
+    font-family: Arial;
+    font-size: 170%;
+    font-weight: bold;
+    opacity: 90%;
+    color: green;
+}
+
+.local {
+    margin-top: 2%;
+    font-family: Arial;
+    font-size: 100%;
+    font-weight: bold;
+    opacity: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3%;
+/*     border: 1px solid black; */
+}
+
+.local a {
+/*     border: 1px solid black; */
+    width: 4%;
+    margin-top: 0.15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.local img {
+    width: 100%;
+}
+
+.i {
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.g {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}   
+
+.h {
+    gap: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.botao_popup {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ClickMotors';
+    font-size: 80%;
+    user-select: none;
+    cursor: pointer;
+}
+
+.form_botao {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao_excluir {
+    background-color: white;
+    color: red;
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ClickMotors';
+    font-size: 80%;
+    user-select: none;
+    cursor: pointer;
+}
+
+.botao_vendido {
+    background-color: white;
+    color: green;
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ClickMotors';
+    font-size: 80%;
+    user-select: none;
+    cursor: pointer;
+}
+
+.botao_popup:hover {
+    background-color: gray;
+    color: white;
+}
+
+.botao_excluir:hover {
+    background-color: red;
+    color: white;
+}
+
+.botao_vendido:hover {
+    background-color: green;
+    color: white;
+}
+
+.q {
+/*     border: 1px solid black; */
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ClickMotors';
+    user-select: none;
+    font-size: 130%;
+}
+
+.q img {
+    width: 35%;
+    margin-bottom: -5%;
+}
+
+.popup-wrapper{
+    display: block;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.popup{
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    height: 27.5%;
+    margin: 10% auto;
+    padding: 20px;
+    background: white;
+    position: relative;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao_valor {
+    background-color: #fc501b;
+    margin-top: 20px;
+    width: 65%;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ClickMotors';
+    user-select: text;
+    font-size: 80%;
+    cursor: pointer;
+}
+
+.botao_fake {
+    margin-top: 8.5%;
+    background-color: #fea083;
+    color: rgb(100, 100, 100);
+    width: 64.5%;
+    height: 38px;
+    border-radius: 3px;
+    border: 1px solid rgb(100, 100, 100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ClickMotors';
+    font-size: 80%;
+    user-select: none;
+}
+
+.input_preco {
+    width: 60%;
+    margin-top: 5%;
+    height: 30px;
+    font-family: Arial;
+    font-size: 110%;
+    color: black;
+    font-weight: bold;
+    opacity: 95%;
+    text-align: left;
+    padding-inline-start: 5%;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.input_preco::placeholder {
+    font-family: Arial;
+    font-size: 100%;
+    color: black;
+    font-weight: bold;
+    opacity: 95%;
+}
+
+h3 {
+    font-family: 'ClickMotors';
+    font-size: 100%;
+}
+
+h5 {
+    margin-top: 3%;
+    font-family: 'ClickMotors';
+    font-size: 70%;
+    color: rgb(193, 0, 0);
+    border-bottom: 2px solid rgb(193, 0, 0);
+    cursor: pointer;
+}
+
+.m {
+    height: 30px;
+}
+
+.div_popup-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #FF3C00;
+    user-select: none;
+    cursor: pointer;
+}
+
+.popup-wrapper-menu {
+    top: 0;
+    right: 0;
+    display: block;
+    position: fixed;
+    width: 10.9%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    z-index: 2;
+}
+
+.popup-menu {
+    border-left: 1px solid black;
+    margin-top: 142px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    background: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.meus_carros-menu {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    margin-bottom: 4.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ClickMotors';
+    font-size: 75%;
+    color: #FF3C00;
+    /* background-color: #ff3d01;
+    color: white; */
+}
+
+.relatorios-menu {
+    /* border-top: 1px solid gray; */
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ClickMotors';
+    font-size: 75%;
+    color: #FF3C00;
+    /* background-color: #ff3d01;
+    color: white; */
+}
+
+.endereco-menu {
+    /* border-top: 1px solid gray; */
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ClickMotors';
+    font-size: 75%;
+    color: #FF3C00;
+    /* background-color: #ff3d01;
+    color: white; */
+}
+
+.sair-menu {
+    /* border-top: 1px solid gray; */
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ClickMotors';
+    font-size: 75%;
+    color: #d90101;
+    /* background-color: #d90101;
+    color: white; */
+}
+
+.h-menu {
+    width: 100%;
+    height: 80px;
+    text-decoration: none;
+}

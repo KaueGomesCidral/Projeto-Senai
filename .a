@@ -1,0 +1,9 @@
+if(!extensoesPermitidas.exec(inputLatEsq.value)){
+        arq_lat_esq.innerHTML = '<p class="erro">Formato Inválido</p>'
+        botao.innerHTML = '<div class="botao_fake">Continuar</div>'
+    } else if(inputLatEsq.files[0].size > 3145728) {
+        arq_lat_esq.innerHTML = '<p class="erro">Tamanho Inválido</p>'
+        botao.innerHTML = '<div class="botao_fake">Continuar</div>'
+    } else if(inputLatEsq == '') {
+        botao.innerHTML = '<div class="botao_fake">Continuar</div>'
+    }
